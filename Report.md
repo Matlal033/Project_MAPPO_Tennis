@@ -10,7 +10,7 @@ In order to leverage it with multiple agents, very few modifications are require
 
 While training the actor network, each agent only has access to its own observation space, which is equivalent to a parallel training scenario where each agent passes its observations to the same actor network one after the other.
 
-On the other hand, the critic network has access to the observations of all agents at once, and therefore of the whole game state, in order to infer the situation over the whole context.
+On the other hand, the critic network has access to the observations of all agents at once, and therefore of the whole game state, and is able to infer if the game is in a good or bad state, over the whole context.
 This critic is accessible to both agent while training, and thus it brings an element of collaboration between them.
 
 #### Hypermarameters :
