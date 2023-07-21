@@ -1,4 +1,4 @@
-# Project_MAPPO_Tennis
+# Project MAPPO tennis
 
 ### Project Details
 
@@ -52,8 +52,13 @@ E.g.: `main.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_t
 #### To watch a trained agent
 
 First, in the *watch_agent.py* file, make sure the path to the UnityEnvironment points to *Tennis.exe*. \
-Then, from the command window, launch *watch_agent.py* file with the file paths to the actor and critic checkpoints. \
-E.g.: `watch_agent.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_temp_critic.pth"`
+Then, from the command window, launch *watch_agent.py* file. By default it will use the best checkpoints provided in the repo.
+
+E.g.: `watch_agent.py`
+
+To select specific weights, pass as arguments the file paths to the actor and critic checkpoints. \
+
+E.g.:   `watch_agent.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_temp_critic.pth"`
 
 ### References
 - [The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games](https://arxiv.org/pdf/2103.01955.pdf)
