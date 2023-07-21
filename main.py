@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     # reset the environment
     env_info = env.reset(train_mode=True)[brain_name]
-    states = env_info.vector_observations #20 in parallel
+    states = env_info.vector_observations
     state_size = states.shape[1]
     action_size = brain.vector_action_space_size
     qty_agents = 2
