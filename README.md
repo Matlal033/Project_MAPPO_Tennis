@@ -10,7 +10,7 @@ A reward of 0.1 is obtained when an agent bounces the ball over the net, and -0.
 
 The main specifications for each agent are: \
 State size: 8 (information about position & velocity of both the ball and racket) \
-Action size: 2 (Continuous left or right movement, and jump) \
+Action size: 2 (Continuous left or right movement, and jumping)
 
 During training, the last 3 states are always stacked, in order to infer trajectories.
 While training the actor, each agent only has access to its own observation space.
