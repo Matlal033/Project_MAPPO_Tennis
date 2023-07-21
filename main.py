@@ -80,8 +80,6 @@ if __name__ == "__main__":
     try:
         filename_actor = sys.argv[1]
         filename_critic = sys.argv[2]
-        print('arg0:', filename_actor)
-        print('arg1:', filename_critic)
     except:
         filename_actor = None
         filename_critic = None
