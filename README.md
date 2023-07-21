@@ -30,7 +30,7 @@ Creating a virtual environment with those specifications is recommended. \
 Here is a link for documentation on how to create a virtual environment : 
 [Creation of virtual environments](https://docs.python.org/3/library/venv.html)
 
-You will also need to download the unity environment compressed file from one of the following links, and extract it under the `Project_PPO_Reacher_Continuous_Control/` folder:
+You will also need to download the unity environment compressed file from one of the following links, and extract it under the `Project_MAPPO_Tennis/` folder:
 
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
 - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
