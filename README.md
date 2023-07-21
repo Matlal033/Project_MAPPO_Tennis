@@ -6,7 +6,7 @@ This is the third project of the Udacity Deep Reinforcement Learning nanodegree,
 For this project, the Tennis environment was solved using a Multi-Agent PPO (MAPPO) algorithm.
 
 The essence of this problem is to have two agents, each one controlling a racket, bounce a ball over the net between themselves for as long as possible.
-A reward of 0.1 is obtained when an agent bounces the ball over the net, or -0.1 if the ball hits the ground or goes out of bounds.
+A reward of 0.1 is obtained when an agent bounces the ball over the net, and -0.1 if the ball hits the ground or goes out of bounds.
 
 The main specifications for each agent are: \
 State size: 8 (information about position & velocity of both ball and racket) \
