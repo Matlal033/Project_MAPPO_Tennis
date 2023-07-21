@@ -34,7 +34,7 @@ This critic is accessible to both agent while training, and thus it brings an el
 #### Neural networks
 
 Two distinct neural networks were used for this task.
-The actor network takes as input 3 stacked states for a total size of 24, passes trough 3 dense layers of size 128, and ends with a tanh activation multiplied by 2 to better tailor around the range of the action values.
+The actor network takes as input 3 stacked states for a total size of 24, passes trough 3 dense layers of size 128, and ends with a tanh activation multiplied by 2 to better tailor around the range of the continuous action values.
 The critic network takes as input the observations of both agents, for a total size of 48, in order to help infering the situation of the whole game.
 It then passes through 3 layers of size 128, and ends with a single value output without activation.
 
