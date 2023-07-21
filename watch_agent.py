@@ -54,7 +54,7 @@ if __name__ == "__main__":
     #Load previously saved network weights
     try:
         filename_actor = sys.argv[1]
-        filename_critic = sys.argv[1]
+        filename_critic = sys.argv[2]
     except:
         filename_actor = None
         filename_critic = None
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     else:
         print('Loading default checkpoints')
-        checkpointActor = torch.load("checkpoint_temp_actor_best.pth")
+        checkpointActor = torch.load("checkpoints\checkpoint_temp_actor_best.pth")
         checkpointCritic = torch.load("checkpoints\checkpoint_temp_critic_best.pth")
         agent.Actor.load_state_dict(checkpointActor)
         agent.Critic.load_state_dict(checkpointCritic)
