@@ -52,7 +52,8 @@ E.g.: `main.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_t
 #### To watch a trained agent
 
 First, in the *watch_agent.py* file, make sure the path to the UnityEnvironment points to *Tennis.exe*. \
-Then, from the command window, launch *watch_agent.py* file. By default it will use the best checkpoints provided in the repo.
+Then, from the command window, launch *watch_agent.py* file. \
+By default it will use the best checkpoints provided in the repo.
 
 E.g.: `watch_agent.py`
 
