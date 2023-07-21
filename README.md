@@ -45,7 +45,7 @@ In *main.py* file, make sure the path to the UnityEnvironment points to *Tennis.
 E.g.: `env = UnityEnvironment(file_name='Tennis_Windows_x86_64\Tennis.exe')` \
 Then, launch `main.py` from the command window.
 
-### To train the agent from a previous checkpoint
+#### To train the agent from a previous checkpoint
 In the command window, pass as two arguments the two file paths to the respective checkpoints of the actor and critic. \
 E.g.: `main.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_temp_critic.pth"`
 
