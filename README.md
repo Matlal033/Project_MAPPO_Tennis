@@ -57,7 +57,7 @@ By default it will use the best checkpoints provided in the repo.
 
 E.g.: `watch_agent.py`
 
-To select specific weights, pass as arguments the file paths to the actor and critic checkpoints. \
+To select specific checkpoints, pass as arguments the file paths to the actor and critic checkpoints. \
 
 E.g.:   `watch_agent.py "checkpoints\checkpoint_temp_actor.pth" "checkpoints\checkpoint_temp_critic.pth"`
 
