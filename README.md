@@ -24,9 +24,9 @@ In an episode, the maximum score between the two agent is the one used.
 
 ### Getting started
 
-To run this code, Python 3.6 is required, along with the dependencies found in [requirements.txt](requirements.txt). \
-Creating a virtual environment with those specifications is recommended.
+To run this code, Python 3.6 is required, along with the dependencies found in [requirements.txt](requirements.txt).
 
+Creating a virtual environment with those specifications is recommended. \
 Here is a link for documentation on how to create a virtual environment : 
 [Creation of virtual environments](https://docs.python.org/3/library/venv.html)
 
