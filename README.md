@@ -9,7 +9,7 @@ The essence of this problem is to have two agents, each one controlling a racket
 A reward of 0.1 is obtained when an agent bounces the ball over the net, and -0.1 if the ball hits the ground or goes out of bounds.
 
 The main specifications for each agent are: \
-State size: 8 (information about position & velocity of both ball and racket) \
+State size: 8 (information about position & velocity of both the ball and racket) \
 Action size: 2 (Continuous left or right movement, and jump) \
 
 During training, the last 3 states are always stacked, in order to infer trajectories.
