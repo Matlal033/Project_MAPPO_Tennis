@@ -76,4 +76,4 @@ It would be interesting to test the MADDPG algorithm, and compare its performanc
 
 Also, most hyperparameters stayed the same between the previous project (Reacher) and this one. Which opens the question of how the structure of a model can easily transpose to another project given relatively similar complexity with state sizes and action sizes. It would be something interesting to further investigate.
 
-Regarding learning speed, even if over 6600 episodes were required, each episode is relatively short, and the whole training time was about 1 hour on an RTX3080 GPU + AMD Ryzen 7 3800XT CPU. Playing with neural net structures and compare the different learning speed would be relevant to gain more intuition on the matter. 
+Regarding learning speed, even if over 6600 episodes were required, each episode is relatively short, and the whole training time was about 1 hour on an RTX3080 GPU + AMD Ryzen 7 3800XT CPU. Playing with neural net structures and compare the different learning speeds would be relevant to gain more intuition on the matter. 
